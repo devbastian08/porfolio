@@ -1,0 +1,30 @@
+.photoheader{
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+}
+.photoheader img{
+    position:absolute;
+    width: 27rem;
+    bottom: 0px;
+    left:180px;
+}
+.texto{
+    max-width: 50%;
+    position:absolute;
+    right: 1rem;
+    padding: 1rem;
+    margin: 1rem ;
+}
+
+.texto p{
+    font-size: 1.8rem !important;
+    text-align: center ;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.p2{
+    color:white !important;
+}
+.p1{
+    color: #ffc045;
+}
