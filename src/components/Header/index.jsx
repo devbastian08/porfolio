@@ -12,7 +12,7 @@ const Header = ()=>{
             <label htmlFor="toggler"><i className="ri-menu-line"></i></label>
             <div className="menu">
                 <ul className="list">
-                    <li><a href="#">Sobre Mi</a></li>
+                    <li><a href="#about">Sobre Mi</a></li>
                     <li><a href="#">Habilidades</a></li>
                     <li><a href="#">Proyectos</a></li>
                     <li><a href="#">Contacto</a></li>

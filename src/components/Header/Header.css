@@ -1,8 +1,8 @@
 .header{
     background-image: url("./img/Header.png"); 
     height: 35rem;
+    width: 100%;
     position: relative;
-
 }
 .container {
     max-width: 90%;
