@@ -38,10 +38,11 @@ const Lenguajes = () => {
 
     return (
       <section className="lenguaje">
+        <h2>Habilidades</h2>
         {lenguajes.map((lenguaje) => (
           <div key={lenguaje.titulo} className="lenguaje">
             <img src={lenguaje.foto} alt={lenguaje.titulo} />
-            <h2>{lenguaje.titulo}</h2>
+            <h3>{lenguaje.titulo}</h3>
           </div>
         ))}
       </section>

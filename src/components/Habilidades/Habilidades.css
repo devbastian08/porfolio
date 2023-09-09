@@ -1,27 +1,30 @@
 .lenguaje {
-    padding: 20px;
+    padding: 15px;
     display:inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     background-color: #0c2233;
-  }
+}
+.lenguaje h2 {
+    text-decoration: underline;
+    font-size: 40px;
+}
 .lenguaje div {
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 15px;
     border: 2px solid #0a91ab;
     border-radius: 10px;
     background-color: #065471;
 }
 
 
-  .lenguaje img {
+.lenguaje img {
     width: 150px;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
-  }
-  
+}
