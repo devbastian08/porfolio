@@ -1,18 +1,20 @@
 import './App.css'
 import Header from './components/Header'
 import AboutMe from './components/AboutMe'
-import Skills from './components/Skill'
+import Lenguajes from './components/Habilidades'
+
 
 
 function App() {
-  
+
+
 
   return (
-    <>
-    <Header/>
-    <AboutMe/>
-    <Skills/>
-    </>
+    <div>
+      <Header/>
+      <AboutMe/>
+      <Lenguajes/>
+    </div>
   )
 }
 
