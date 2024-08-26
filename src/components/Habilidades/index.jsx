@@ -37,7 +37,7 @@ const Lenguajes = () => {
     ]
 
     return (
-      <section className="lenguaje">
+      <section className="lenguaje" id="lenguaje">
         <h2>Habilidades</h2>
         {lenguajes.map((lenguaje) => (
           <div key={lenguaje.titulo} className="lenguaje">

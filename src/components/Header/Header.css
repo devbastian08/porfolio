@@ -3,6 +3,16 @@
     height: 35rem;
     width: 100%;
     position: relative;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+        
+        
+        
+
 }
 .container {
     max-width: 90%;

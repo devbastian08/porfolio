@@ -1,17 +1,16 @@
-.photoheader{
-    display: flex;
-    flex-wrap: wrap;
-    padding: auto;
+
+.img{
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 2em;
 }
-.photoheader img{
-    position:absolute;
-    width: 27rem;
-    bottom: 0px;
-    left:180px;
+.img img{
+    width: 100%;
 }
 .texto{
     max-width: 50%;
-    position:absolute;
+    position:relative;
     right: 1rem;
     padding: 1rem;
     margin: 1rem ;
