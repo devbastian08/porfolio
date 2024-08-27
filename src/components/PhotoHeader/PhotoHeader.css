@@ -1,15 +1,23 @@
+.photoheader{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    justify-content: space-evenly;
+    height:70%;
+}
 
 .img{
-    width: 40%;
-    margin: 0 auto;
-    position: relative;
-    bottom: 2em;
+    width: 50%;
+    position: relative
+
 }
 .img img{
-    width: 100%;
+    width: 61.8%;
 }
 .texto{
-    max-width: 50%;
+    width: 50%;
     position:relative;
     right: 1rem;
     padding: 1rem;
