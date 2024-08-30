@@ -1,0 +1,31 @@
+.AboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c2233;
+    padding: 3rem;
+    gap: 1rem;/* Permite que los elementos se envuelvan en líneas nuevas si no hay suficiente espacio */
+    background-color: #0c2233;
+  }
+  
+  .AboutMe img {
+    border-radius: 10px 5px 30px 20px;
+    width: 100%;
+    flex: 1; /* Ocupa el espacio disponible */
+    max-width: 100%; /* Evita que la imagen se salga de su contenedor */
+  }
+  
+  .text-area {
+    text-align: left;
+    flex: 1;
+    padding: 2rem; /* Margen interno para el texto */
+    color: white !important;
+    font-size: 19px !important; 
+  }
+
+  @media (max-width: 768px) {
+    .AboutMe {
+      flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+    }
+  }

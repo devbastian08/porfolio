@@ -1,19 +1,16 @@
-import './App.css'
-import Header from './components/Header'
-import AboutMe from './components/AboutMe'
-import Lenguajes from './components/Habilidades'
-
-
+import "./App.css";
+import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Lenguajes from "./components/Habilidades";
 
 function App() {
-
-
-
   return (
     <div>
-      <Header/>
+      <Header />
+      <AboutMe />
+      <Lenguajes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
