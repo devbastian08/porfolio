@@ -5,6 +5,7 @@
     justify-content: center; /* Centramos los elementos horizontalmente */
     background-color: #0c2233;
     height: auto;
+    margin-top: 3rem;
   }
 .about{
     display: flex;

@@ -27,10 +27,6 @@ const Lenguajes = () => {
           foto : "./img/react.png"
         },
         {
-          titulo : "Sass",
-          foto : "./img/sass.png"
-        },
-        {
           titulo : "Tailwind",
           foto : "./img/tailwind.png"
         },
