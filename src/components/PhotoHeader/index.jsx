@@ -1,10 +1,9 @@
 import "./PhotoHeader.css";
 
 const PhotoHeader = () => {
-
-    const handleClick = () => {
-      window.location.href = `sebastian08.dev@gmail.com`;
-    };
+  const handleClick = () => {
+    window.location.href = `mailto: sebastian08.dev@gmail.com`;
+  };
 
   return (
     <section className="photoheader">
@@ -15,10 +14,14 @@ const PhotoHeader = () => {
         <h1 className="p1">Hola, soy Sebastian trujillo</h1>
         <h2 className="p2">Desarrollador FrontEnd</h2>
         <div className="botones">
-          <button className="btn contactame" onClick={handleClick}>Contáctame</button>
+          <button className="btn contactame" onClick={handleClick}>
+            Contáctame
+          </button>
           <a
             href="https://www.linkedin.com/in/sebastiandev08/"
             className="btn linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>
