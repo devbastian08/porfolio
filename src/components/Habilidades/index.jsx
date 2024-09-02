@@ -15,6 +15,11 @@ const Lenguajes = () => {
           foto : "./img/javascript.png"
         },
         {
+          titulo : "Typescript",
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:793096615.
+          foto : "./img/typescript.png"
+        },
+        {
           titulo : "Git",
           foto : "./img/git.png"
         },
@@ -30,6 +35,7 @@ const Lenguajes = () => {
           titulo : "Tailwind",
           foto : "./img/tailwind.png"
         },
+
     ]
 
     return (

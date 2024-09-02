@@ -4,7 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   --sb-track-color: #0d2538;
   --sb-thumb-color: #0a91ab;
-  --sb-size: 10px;
+  --sb-size: 9px;
 }
 
 body::-webkit-scrollbar {
