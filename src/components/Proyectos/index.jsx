@@ -35,7 +35,7 @@ const Proyectos = () => {
   ];
 
   return (
-    <section className="proyectos">
+    <section className="proyectos" id="proyectos">
       <h2>Proyectos</h2>
       <div className="grid-proyectos">
         {proyecto.map((proyecto) => (
